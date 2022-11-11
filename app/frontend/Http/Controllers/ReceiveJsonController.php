@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Frontend\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Json;
+use App\Http\Controllers\Controller;
+use App\Frontend\Models\Json;
 use App\Models\User;
 use Carbon\Carbon;
 

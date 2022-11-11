@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProcJsonController;
+use App\Backend\Http\Controllers\ProcJsonController;
 
 /*
 |--------------------------------------------------------------------------

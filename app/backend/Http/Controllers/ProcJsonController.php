@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Backend\Http\Controllers;
 
-use App\Models\Json;
+use App\Http\Controllers\Controller;
+use App\Backend\Models\Json;
 use Illuminate\Http\Request;
 
 class ProcJsonController extends Controller

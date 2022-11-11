@@ -46,12 +46,5 @@ class AuthCommand extends Command
 
             $this->info('Your token is: '. $user->token);
         }
-
-//        $this->table(
-//            ['Name', 'Token'],
-//            User::select(['name', 'token'])
-//                ->where('login', $login)
-//                ->get()
-//        );
     }
 }
